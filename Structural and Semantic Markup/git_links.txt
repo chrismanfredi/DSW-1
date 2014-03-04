@@ -2,4 +2,4 @@ Recipe Live Website: http://cmbaseball94.github.io/DSW-1/Structural%20and%20Sema
 
 Definition Live Website: http://cmbaseball94.github.io/DSW-1/Structural%20and%20Semantic%20Markup/Element_Definitions.html
 
-GitHub.com Repository:
+GitHub.com Repository: https://github.com/cmbaseball94/DSW-1/tree/gh-pages
