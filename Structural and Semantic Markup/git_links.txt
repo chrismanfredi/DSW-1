@@ -1,3 +1,5 @@
-Live Website:
+Recipe Live Website: http://cmbaseball94.github.io/DSW-1/Structural%20and%20Semantic%20Markup/Shamrock_Cupcake_Recipe.html
+
+Definition Live Website: http://cmbaseball94.github.io/DSW-1/Structural%20and%20Semantic%20Markup/Element_Definitions.html
 
 GitHub.com Repository:
