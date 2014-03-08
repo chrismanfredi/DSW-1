@@ -1,0 +1,22 @@
+h1 {
+	background-color: #4B8A08;
+	color: #0000FF;
+}
+
+h2 {
+	color: #FF4000;
+	border-bottom: 1px solid black;
+	float: left;
+	width: 20%;
+	clear: both;
+	padding: 0 0 0 45px;
+}
+
+p {
+	color: #424242;
+	float: left;
+	width: 20%;
+	clear: both;
+	padding: 0 0 0 45px;
+}
+
