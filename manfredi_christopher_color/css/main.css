@@ -37,6 +37,7 @@ h2 {
 .nav li {
 	display: inline;
 	background-color: hsl(155,100%,30%);
+	list-style-type: upper-roman;
 }
 
 /* Paragraph */
@@ -61,7 +62,6 @@ img {
     margin-right: auto;
     opacity:0.6;
     border: 3px solid rgba(245, 0, 106, 0.97);
-
 }
 
 /* Container  */
@@ -112,6 +112,11 @@ hr {
 	background-color: #000;
 }
 
+ol {
+	list-style-type: lower-roman;
+
+}
+
 /* Link Color */
 a:link {color: #FC3;}    
 
@@ -123,6 +128,7 @@ a:hover {color: #90F;}
 
 /* Active Link Color */
 a:active {color: #00f;}  
+
 
 
 

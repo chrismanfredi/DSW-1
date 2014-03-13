@@ -18,11 +18,16 @@ h1 {
 /* H2 Tag */
 
 h2 {
-	padding: 0 0 0 180px;
+	padding: 0 0 0 150px;
 	color: #00593F;
 	width: 30%;
 	font-family: 'Revalia', cursive;
 	
+}
+
+h3 {
+	text-align: center;
+
 }
 
 /* Nav bar Unordered List */
@@ -35,20 +40,24 @@ h2 {
 /* Nav Bar List Item */
 
 .nav li {
-	display: inline;
+	display: block;
 	background-color: hsl(155,100%,30%);
 }
 
 /* Paragraph */
 
 p {
-	margin: 0 0 0 30px;
-	color: red;
+	margin: 30px;
+	padding: 20px;
+	color: white;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 15px;
 	font-weight: 900;
 	line-height:140%;
 	font-style:italic;
+	background-color: #00593F;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
 	
 
 }
@@ -57,6 +66,7 @@ p {
 
 img {
 	display: block;
+	width:50%;
     margin-left: auto;
     margin-right: auto;
     opacity:0.6;
@@ -123,6 +133,22 @@ a:hover {color: #90F;}
 
 /* Active Link Color */
 a:active {color: #00f;}  
+
+.top20 {
+	width:200px;
+    margin:0 auto;
+
+} 
+
+ol {
+	list-style: lower-roman;
+	text-align: center;
+	
+}
+
+#imagesContainer {width:500px; overflow:hidden;}
+.articleImage {width:160px; float:left; display:block; margin:15px;}
+.middle {margin:15px 90px;}
 
 
 
