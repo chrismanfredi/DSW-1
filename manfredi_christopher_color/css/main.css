@@ -1,0 +1,93 @@
+/* Body */
+
+body {
+	background-color: #a6c8ca;
+	background-repeat: no-repeat;
+}
+
+/* H1 Tag */
+
+h1 {
+	text-align: center;
+	color: rgb(55, 30, 217);
+}
+
+/* H2 Tag */
+
+h2 {
+	padding: 0 0 0 180px;
+	color: #00593F;
+	width: 30%;
+}
+
+/* Nav bar Unordered List */
+
+.nav ul {
+	text-align: center;
+	padding: 0 8px 0 0;
+}
+
+/* Nav Bar List Item */
+
+.nav li {
+	display: inline;
+	background-color: hsl(155,100%,30%);
+}
+
+/* Paragraph */
+
+p {
+	margin: 0 0 0 30px;
+	color: red;
+
+}
+
+/* Images */
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity:0.6;
+    border: 3px solid rgba(245, 0, 106, 0.97);
+
+}
+
+/* Container  */
+
+.container {
+	width: 100%;
+	float: left;
+}
+
+/* Left Column */
+
+#leftcol {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	padding: 0 0 0 30px;
+}
+
+/* Right Column */
+
+#rightcol {
+	display: block;
+	float: right;
+	width: 30%;
+	padding: 0 0 0 30px;
+}
+
+/* Center Column */
+
+#centercol {
+	overflow: hidden;
+	width: 30%;
+	padding: 0 0 0 30px;
+}
+
+/* Header */
+
+#header {
+	width: 100%;
+}
