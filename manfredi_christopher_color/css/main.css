@@ -18,6 +18,7 @@ h2 {
 	padding: 0 0 0 180px;
 	color: #00593F;
 	width: 30%;
+	
 }
 
 /* Nav bar Unordered List */
@@ -39,6 +40,7 @@ h2 {
 p {
 	margin: 0 0 0 30px;
 	color: red;
+	
 
 }
 
@@ -91,3 +93,15 @@ img {
 #header {
 	width: 100%;
 }
+
+/* Line */
+
+hr {
+	border: 1px solid;
+  	width: 95%;
+	color: #000;
+	background-color: #000;
+}
+
+
+
