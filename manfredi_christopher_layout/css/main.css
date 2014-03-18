@@ -3,7 +3,6 @@
 body {
 	background-color: #a6c8ca;
 	background-repeat: no-repeat;
-	width: 960px;
 }
 
 /* H1 Tag */
@@ -28,6 +27,7 @@ h2 {
 
 h3 {
 	text-align: center;
+	font-family: 'Lemon', cursive;
 
 }
 
@@ -48,11 +48,11 @@ h3 {
 /* Paragraph */
 
 p {
-	margin: 30px;
-	padding: 20px;
+	margin: 3.125%;
+	padding: 2.0833333333%;
 	color: white;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 15px;
+	font-size: 1.000em;
 	font-weight: 900;
 	line-height:140%;
 	font-style:italic;
@@ -65,19 +65,28 @@ p {
 
 /* Images */
 
-img #banner {
+#banner img {
 	display: block;
 	width:50%;
     margin-left: auto;
     margin-right: auto;
     opacity:0.6;
+    border: 1px solid blue;
 
 }
 
-img .seth{
+.seth img{
 	display:block;
 	text-align:left;
 }
+
+.sethgreen img {
+	display:inline;
+	text-align:left;
+	clear: both;
+}
+
+
 
 
 /* Container  */
@@ -152,12 +161,9 @@ ol {
 	
 }
 
-#imagesContainer {width:500px; overflow:hidden;}
-.articleImage {width:160px; float:left; display:block; margin:15px;}
-.middle {margin:15px 90px;}
-
-
-
-
-
-
+.FloatLeft{
+	float:left;
+}
+.clear{
+	clear:both;
+}
