@@ -1,0 +1,280 @@
+/* Body */
+
+body {
+	background-image: url("../images/pyramid.gif");
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* H1 Tag */
+
+h1 {
+	text-align: center;
+	color: rgb(55, 30, 217);
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/* H2 Tag */
+
+h2 {
+	padding: 0 0 0 150px;
+	color: #00593F;
+	width: 30%;
+	font-family: 'Revalia', cursive;
+	
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Lemon', cursive;
+	color: #FFF;
+	background: linear-gradient(#237317, #f78585);
+	border: 2px Solid #000;
+	width: 20%;
+	border-radius: 10px;
+	margin: 0 0 25px 560px;
+	
+
+}
+
+h4 {
+	color: #FFF;
+	padding: 0 0 15px 125px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+
+}
+
+table {
+	border: 1px solid white;
+	color: #FFF;
+	width: 30%;
+	height: 30px;
+	background-color: #00593F;
+	margin: 0 0 90px 375px;
+	padding: 20px;
+	letter-spacing: 0.0825em;
+	font-size: 15px;
+	text-align: left;
+	border-spacing: 10px 5px;
+
+}
+
+th {
+	padding: 0 150px 0 0;
+
+}
+
+th:hover {
+	background-color: #FF6600;
+
+}
+
+td:hover {
+	background-color: #000;
+
+}
+
+#forms {
+  color: #FFF;
+  width: 300px;
+  margin: 0 auto;
+  padding-left: 20px;
+  border: 1px solid black;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+#forms:hover {
+	background-color: #FE2EF7;
+
+}
+
+#forms .selection{
+  color:red;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: none;
+  
+}
+
+#forms .button:hover {
+	background-color: #00FF00;
+
+}
+
+input:focus {
+	background-color: yellow;
+
+}
+
+textarea:focus {
+	background-color: green;
+
+}
+
+/* Nav bar Unordered List */
+
+.nav ul {
+	text-align: center;
+	padding: 0 8px 0 0;
+}
+
+/* Nav Bar List Item */
+
+.nav li {
+	display: block;
+	background-color: hsl(155,100%,30%);
+	color: #FFF;
+}
+
+li {
+	color: #FFF;
+}
+/* Paragraph */
+
+p {
+	margin: 3.125%;
+	padding: 2.0833333333%;
+	color: white;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.000em;
+	font-weight: 900;
+	line-height:140%;
+	font-style:italic;
+	background-color: #00593F;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	
+
+}
+
+/* Images */
+
+header #banner img {
+	display: block;
+	width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity:0.6;
+    border: 1px solid blue;
+
+}
+
+.seth img{
+	display:block;
+	text-align:left;
+}
+
+.sethgreen img {
+	display:inline;
+	text-align:left;
+	clear: both;
+}
+
+
+
+
+/* Container  */
+
+.container {
+	width: 100%;
+	float: left;
+}
+
+/* Left Column */
+
+#leftcol {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	padding: 0 0 0 30px;
+}
+
+/* Right Column */
+
+aside {
+	display: block;
+	float: right;
+	width: 25%;
+	padding: 0 15px 0 15px;
+}
+
+/* Center Column */
+
+#centercol {
+	overflow: hidden;
+	width: 30%;
+	padding: 0 0 0 30px;
+}
+
+/* Header */
+
+#header {
+	width: 100%;
+}
+
+/* Line */
+
+hr {
+	border: 1px solid;
+  	width: 95%;
+	color: #FFF;
+	background-color: #000;
+}
+
+/* Link Color */
+a:link {color: #FC3;}    
+
+/* Visited Link Color */
+a:visited {color: #3FF;} 
+
+/* Hover Link Color */
+a:hover {color: #90F;}   
+
+/* Active Link Color */
+a:active {color: #00f;}  
+
+.top20 {
+	width:200px;
+    margin:0 auto;
+
+} 
+
+ol {
+	list-style: lower-roman;
+	text-align: center;
+	
+}
+
+.FloatLeft{
+	float:left;
+}
+.clear{
+	clear:both;
+}
+
+.icons {
+	padding: 0 0 0 635px;
+
+}
+
+.footermenu {
+	text-align: center;
+	padding: 0 90px 0 0;
+{
+.footermenu li {
+	height: 155px;
+	display: inline; 
+	list-style-type: none; 
+}
+
+.footermenu ul{
+	list-style-type: none;
+	display: inline;
+	
+}
+
