@@ -3,7 +3,7 @@
 h1 {
 	text-align: center;
 	font-family: 'bree Serif',serif;
-	color: #FF8000;
+	color: hsl(38, 100%, 56%);
 	font-size: 40px;
 }
 
@@ -13,11 +13,16 @@ h2 {
 
 h3 {
 	text-align: center;
-	color: yellow;
+	color:rgb(255,255,0);
+	font-family: 'Allan',serif;
+	font-size: 30px;
 }
 
-h3 {
-
+p {
+	font-weight: bold;
+	font-style:	italic;
+	line-height: 200%;
+	text-shadow: 0.1em 0.1em #333;
 }
 
 header {
@@ -47,13 +52,24 @@ nav ul li {
 	font-size: 17px;
 }
 
-nav ul li a {
-	color: green;
-}
+
 
 nav ul li a:hover {
 	color: pink;
 }
+
+nav ul li a:link {
+	color: red;
+}
+
+nav ul li a:visited {
+	color: yellow;
+}
+
+nav ul li a:active {
+	color: purple;
+}
+
 
 #top {
 	width: 94%;
@@ -71,6 +87,7 @@ article {
 	padding: 10px 10px 10px 30px;
 	border-radius: 30px;
 	text-align: center;
+	box-shadow: 10px 10px 5px yellow;
 }
 
 aside {
@@ -80,9 +97,10 @@ aside {
 	float: left;
 	margin: 70px 0 10px 0;
 	padding: 10px 10px 10px 10px;
-	background-color: #0C0;
+	background: linear-gradient(#E03800, #f78585);
 	border-radius: 15px;
 	text-align: center;
+	box-shadow: 10px 10px 5px yellow;
 }
 
 table {
@@ -93,6 +111,9 @@ table {
 	padding: 5px 60px 15px 20px;
 	margin: 15px 35px 0 55px;
 	float: left;
+	letter-spacing: 2px;
+	font-size: 12px;
+	border-spacing: 10px;
 }
 
 td,th {
@@ -124,6 +145,10 @@ input {
 	height: 25px;
 	float: left;
 	clear: both;
+}
+
+input:focus {
+	background-color: yellow;
 }
 input#submit {
 	color: #090;
@@ -172,9 +197,12 @@ label {
 #search {
 	float: right;
 	color: white;
-	padding: 10px 70px 0 0;
+	padding: 10px 120px 10px 0;
 }
 
+#search:focus {
+	background-color: yellow;
+}
 #photos {
 	padding 10px 0 0 120px;
 	margin: 15px 300px 0 60px;
@@ -189,4 +217,23 @@ label {
 #photos .photo1 {
 	padding: 0 0 0 60px;
 	margin: 0 0 0 60px;
+	opacity:0.8;
+
+}
+
+.footer {
+	text-align: center;
+	clear: both;
+}
+
+.footer li {
+	height: 155px;
+	display: inline; 
+	list-style-type: none; 
+}
+
+.footer ul{
+	list-style-type: none;
+	display: inline;
+	
 }
