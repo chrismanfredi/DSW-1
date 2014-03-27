@@ -1,0 +1,42 @@
+@charset"UTF-8";
+
+body {
+		background-image:url(images/titanfall.jpg);
+}
+
+h1 {
+	text-align: center;
+	font-family: 'bree Serif',serif;
+	color: #FF8000;
+	font-size: 40px;
+}
+
+#header {
+	font-family: Georgia, "Times New Roman",Times,serif;
+	font-size: 1.250em;
+	text-align: center;
+	color: #6F3;
+	margin: 0.938em;
+	border-radius: 15px;
+}
+
+nav ul {
+	color: #0000FF;
+	list-style: none;
+	padding: 20px 0 0 535px;
+
+}
+
+#nav ul li {
+	display: inline;
+	padding: 0 0 0 40px;
+	font-size: 17px;
+}
+
+#nav ul li a {
+	color: green;
+}
+
+#nav ul li a:hover {
+	color: pink;
+}
